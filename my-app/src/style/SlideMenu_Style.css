@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+.container {
+  display: flex;
+  float: left;
+}
+main {
+  width: 100%;
+  height: 100%;
+}
+.sidebar {
+  
+  background: #0d0b53;
+  color: #fff;
+  height: 100vh;
+  width: 230px;
+}
+.big-sidebar{
+  background: #0d0b53;
+  color: #fff;
+  height: 100vh;
+  width: 230px;
+}
+
+.top_section {
+  display: flex;
+  align-items: center;
+  padding: 25px 20px;
+  margin-bottom: 14px;
+  width: 230px;
+}
+.heading {
+  font-size: 35px;
+  margin-left: 9px;
+}
+.bigheading {
+  font-size: 20px;
+  margin-left: 9px;
+}
+.bars {
+  display: flex;
+  transition: all 0.8s;
+  margin-right: 4px;
+}
+.link {
+  display: flex;
+  color: #fff;
+  height: 12px;
+  padding: 18px 8px;
+  margin: 20px 12px;
+
+  gap: 15px;
+  transition: all 0.5s;
+  border-radius: 10px;
+  align-items: center;
+}
+.active {
+  background-color: #363395;
+}
+.heading {
+  font-size: 20px;
+}
+.link_text {
+  font-size: 15px;
+  margin: 0px 12px;
+  padding-right: 30px;
+  margin-right: 0px;
+}
+.bigico{
+  padding-left: 40px;
+}
+.arrow0 {
+  margin-left: 0px;
+}
+.arrow1 {
+  margin-left: 21px;
+}
+.arrow3 {
+  margin-left: 24px;
+}
+.arrow4 {
+  margin-left: 13px;
+}
+.arrow5 {
+  margin-left: 40px;
+}.arrow0 {
+  margin-left: 0px;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  padding: 10px 5px;
+  margin: 0px 10px;
+  margin-top: 120px;
+  background-color: #363395;
+  border-radius: 6px;
+}
+
+.profile {
+  width: 40px;
+  height: 40px;
+  margin-right: 14px;
+  border-radius: 25px;
+}
+.info {
+  margin-right: 23px;
+}
+.name {
+  font-size: 15px;
+  font-weight: bold;
+}
+.role {
+  font-size: 12px;
+}
+.bars .toggle {
+  position: absolute;
+  visibility: hidden;
+  width: 30px;
+  height: 30px;
+  margin-top: 4px;
+}
+
+
+
+@media (max-width: 990px) {
+  .sidebar {
+    width: 70px;
+  }
+  .big{
+    display: none;
+  }
+  .bigico{
+    display: none;
+  }
+  .bigheading{
+    display: none;
+  }
+  
+  .bars .hex {
+    display: none;
+  }
+  .bars .toggle {
+    position: relative;
+    visibility: visible;
+    padding-right: 6px;
+  }
+}
+@media (max-width: 830px) {
+  .user {
+    margin-top: 90px;
+  }
+}
